@@ -48,17 +48,6 @@ Export to Excel
 
 ---
 
-## 🧪 Models & Tools Evaluated
-
-During development, the following tools were tested:
-
-- PaddleOCR ❌
-- Tesseract ❌
-- EasyOCR ❌
-- Kareken ❌
-- Fine-tuned TrOCR on [Indic-HW dataset](https://cvit.iiit.ac.in/research/projects/cvit-projects/indic-hw-data) ❌
-- EasyOCR + TrOCR fusion ❌
-
 ✅ **Final working pipeline:**
 
 - **OCR**: Google Vision API  
@@ -102,16 +91,6 @@ touch .env
 
 ---
 
-## 📁 Output Example
-
-```
-output/
-├── book_catalog_output.xlsx       # Final Excel catalog
-├── logs/
-│   └── llm_conversations_log.json
-└── extracted_texts/
-    └── <pdf_name>_extracted.txt
-```
 
 ---
 
